@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <a class="navbar-brand" href="#">
+            <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEMRfX2ouW2lw/company-logo_200_200/company-logo_200_200/0/1727855093948/prodigy_infotech_logo?e=2147483647&v=beta&t=yKzoYTxZSd47gGP9jF__ycnWkrjvAV6XJgAPU3vi2io" alt="Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#sectionhomepage">Home</a>
+                <a class="nav-link" href="#sectionabtss">About</a>
+                <a class="nav-link" href="#">Service section</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="sectionhomepage" class="hp-section">
+        <div class="hp">
+            <h1 class="h">Home Page</h1>
+            <p class="p">
+                Welcome to our responsive web design service. We create responsive websites that are modern, fast, and optimized for all
+                screen sizes. With a focus on responsive layouts, we ensure your site looks perfect on every device.
+            </p>
+        </div>
+    </div>
+
+    <!-- About Section (Initially Hidden) -->
+    <div id="sectionabtss" class="hp-section" style="display: none;">
+        <div class="hp">
+            <h1 class="h">About</h1>
+            <p class="p">
+                We are a team of developers and designers who build quality digital experiences. Our goal is to combine creativity and technology to create meaningful solutions.
+            </p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
